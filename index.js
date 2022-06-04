@@ -8,6 +8,7 @@ const io = require('socket.io')(http, {
     }
 });
 
+const port = process.env.PORT || 8080;
 let messages = [];
 
 //escucha
@@ -32,6 +33,6 @@ app.get('/', (req, res) => {
     res.send('<h1>vista default del socket</h1>');
 });
 
-http.listen(8080, () => {
+http.listen(port, () => {
     console.log("Escuchando puerto 8080");
 });
