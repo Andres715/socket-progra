@@ -4,7 +4,7 @@
   "description": "socket para el proyecto de progra 3",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
   },
   "author": "Andres715",
   "license": "ISC",
