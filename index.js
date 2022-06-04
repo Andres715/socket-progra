@@ -32,6 +32,6 @@ app.get('/', (req, res) => {
     res.send('<h1>vista default del socket</h1>');
 });
 
-http.listen(3000, () => {
-    console.log("Escuchando puerto 3000");
+http.listen(8080, () => {
+    console.log("Escuchando puerto 8080");
 });
